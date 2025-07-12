@@ -3,8 +3,9 @@
 ## 📌 Tanıtım
 
 Bu proje, Türkçe sosyal medya içeriklerinde yer alan siber zorbalık ifadelerini otomatik olarak tespit etmeyi amaçlamaktadır.  
-Sosyal medya platformlarında kullanıcılar arası olumsuz etkileşimler, özellikle genç bireylerde psikolojik sorunlara yol açabilmektedir.  
-Bu nedenle, doğal dil işleme ve makine öğrenmesi teknikleri kullanılarak siber zorbalık içeren içeriklerin doğrulukla sınıflandırılması hedeflenmiştir.
+Sosyal medya platformlarında kullanıcılar arası olumsuz etkileşimler, özellikle genç bireylerde psikolojik sorunlara yol açabildiğinden
+siber zorbalığın tespiti ve önlenmesi büyük önem taşımaktadır. Bu nedenle doğal dil işleme ve makine öğrenmesi teknikleri kullanılarak siber 
+zorbalık içeren içeriklerin doğrulukla sınıflandırılması hedeflenmiştir.
 
 ---
 
@@ -21,7 +22,6 @@ Bu nedenle, doğal dil işleme ve makine öğrenmesi teknikleri kullanılarak si
 ## 📂 Veri Seti
 
 - **Kaynak:** [Türkçe Sosyal Medya Paylaşımı Veri Seti – Kaggle](https://www.kaggle.com/datasets/mrtbeyz/trke-sosyal-medya-paylam-veri-seti)  
-- **Boyut:** 11.117 paylaşım  
 - **Sınıflar:** Pozitif (%55), Negatif (%45)
 
 ---
@@ -33,8 +33,8 @@ Veri kalitesini artırmak için şu işlemler uygulanmıştır:
 - Küçük harfe dönüştürme  
 - Noktalama, URL ve kullanıcı adı temizliği  
 - Türkçe stop-word temizliği  
-- Lemmatizasyon (kök bulma)  
-- TF-IDF vektörleştirme (unigram + bigram)  
+- Lemmatizasyon 
+- TF-IDF vektörleştirme 
 - Tematik manuel etiketleme (negatif içerikler için)
 
 Ek olarak, metinlere ilişkin yapısal özellikler çıkarılmıştır:
